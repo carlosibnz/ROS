@@ -1,0 +1,8 @@
+prefix=/home/igor/catkin_ws/devel
+
+Name: igor_package
+Description: Description of igor_package
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/igor/catkin_ws/devel/lib 
+Requires: 
