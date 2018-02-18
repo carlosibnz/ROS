@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/igor/catkin_ws/build
 include geek_gasteiz/CMakeFiles/geek_gasteiz_generate_messages_nodejs.dir/progress.make
 
 geek_gasteiz/CMakeFiles/geek_gasteiz_generate_messages_nodejs: /home/igor/catkin_ws/devel/share/gennodejs/ros/geek_gasteiz/msg/MsgGeek.js
+geek_gasteiz/CMakeFiles/geek_gasteiz_generate_messages_nodejs: /home/igor/catkin_ws/devel/share/gennodejs/ros/geek_gasteiz/srv/SrvGeek.js
 
 
 /home/igor/catkin_ws/devel/share/gennodejs/ros/geek_gasteiz/msg/MsgGeek.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
@@ -61,8 +62,14 @@ geek_gasteiz/CMakeFiles/geek_gasteiz_generate_messages_nodejs: /home/igor/catkin
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/igor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from geek_gasteiz/MsgGeek.msg"
 	cd /home/igor/catkin_ws/build/geek_gasteiz && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/igor/catkin_ws/src/geek_gasteiz/msg/MsgGeek.msg -Igeek_gasteiz:/home/igor/catkin_ws/src/geek_gasteiz/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p geek_gasteiz -o /home/igor/catkin_ws/devel/share/gennodejs/ros/geek_gasteiz/msg
 
+/home/igor/catkin_ws/devel/share/gennodejs/ros/geek_gasteiz/srv/SrvGeek.js: /opt/ros/kinetic/lib/gennodejs/gen_nodejs.py
+/home/igor/catkin_ws/devel/share/gennodejs/ros/geek_gasteiz/srv/SrvGeek.js: /home/igor/catkin_ws/src/geek_gasteiz/srv/SrvGeek.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/igor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from geek_gasteiz/SrvGeek.srv"
+	cd /home/igor/catkin_ws/build/geek_gasteiz && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/igor/catkin_ws/src/geek_gasteiz/srv/SrvGeek.srv -Igeek_gasteiz:/home/igor/catkin_ws/src/geek_gasteiz/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p geek_gasteiz -o /home/igor/catkin_ws/devel/share/gennodejs/ros/geek_gasteiz/srv
+
 geek_gasteiz_generate_messages_nodejs: geek_gasteiz/CMakeFiles/geek_gasteiz_generate_messages_nodejs
 geek_gasteiz_generate_messages_nodejs: /home/igor/catkin_ws/devel/share/gennodejs/ros/geek_gasteiz/msg/MsgGeek.js
+geek_gasteiz_generate_messages_nodejs: /home/igor/catkin_ws/devel/share/gennodejs/ros/geek_gasteiz/srv/SrvGeek.js
 geek_gasteiz_generate_messages_nodejs: geek_gasteiz/CMakeFiles/geek_gasteiz_generate_messages_nodejs.dir/build.make
 
 .PHONY : geek_gasteiz_generate_messages_nodejs

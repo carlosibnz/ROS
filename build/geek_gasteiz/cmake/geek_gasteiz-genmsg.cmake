@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "geek_gasteiz: 1 messages, 0 services")
+message(STATUS "geek_gasteiz: 1 messages, 1 services")
 
 set(MSG_I_FLAGS "-Igeek_gasteiz:/home/igor/catkin_ws/src/geek_gasteiz/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
 
@@ -22,6 +22,11 @@ add_custom_target(_geek_gasteiz_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "geek_gasteiz" "/home/igor/catkin_ws/src/geek_gasteiz/msg/MsgGeek.msg" ""
 )
 
+get_filename_component(_filename "/home/igor/catkin_ws/src/geek_gasteiz/srv/SrvGeek.srv" NAME_WE)
+add_custom_target(_geek_gasteiz_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "geek_gasteiz" "/home/igor/catkin_ws/src/geek_gasteiz/srv/SrvGeek.srv" ""
+)
+
 #
 #  langs = gencpp;geneus;genlisp;gennodejs;genpy
 #
@@ -36,6 +41,12 @@ _generate_msg_cpp(geek_gasteiz
 )
 
 ### Generating Services
+_generate_srv_cpp(geek_gasteiz
+  "/home/igor/catkin_ws/src/geek_gasteiz/srv/SrvGeek.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/geek_gasteiz
+)
 
 ### Generating Module File
 _generate_module_cpp(geek_gasteiz
@@ -50,6 +61,8 @@ add_dependencies(geek_gasteiz_generate_messages geek_gasteiz_generate_messages_c
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/igor/catkin_ws/src/geek_gasteiz/msg/MsgGeek.msg" NAME_WE)
+add_dependencies(geek_gasteiz_generate_messages_cpp _geek_gasteiz_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/igor/catkin_ws/src/geek_gasteiz/srv/SrvGeek.srv" NAME_WE)
 add_dependencies(geek_gasteiz_generate_messages_cpp _geek_gasteiz_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -69,6 +82,12 @@ _generate_msg_eus(geek_gasteiz
 )
 
 ### Generating Services
+_generate_srv_eus(geek_gasteiz
+  "/home/igor/catkin_ws/src/geek_gasteiz/srv/SrvGeek.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/geek_gasteiz
+)
 
 ### Generating Module File
 _generate_module_eus(geek_gasteiz
@@ -83,6 +102,8 @@ add_dependencies(geek_gasteiz_generate_messages geek_gasteiz_generate_messages_e
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/igor/catkin_ws/src/geek_gasteiz/msg/MsgGeek.msg" NAME_WE)
+add_dependencies(geek_gasteiz_generate_messages_eus _geek_gasteiz_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/igor/catkin_ws/src/geek_gasteiz/srv/SrvGeek.srv" NAME_WE)
 add_dependencies(geek_gasteiz_generate_messages_eus _geek_gasteiz_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -102,6 +123,12 @@ _generate_msg_lisp(geek_gasteiz
 )
 
 ### Generating Services
+_generate_srv_lisp(geek_gasteiz
+  "/home/igor/catkin_ws/src/geek_gasteiz/srv/SrvGeek.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/geek_gasteiz
+)
 
 ### Generating Module File
 _generate_module_lisp(geek_gasteiz
@@ -116,6 +143,8 @@ add_dependencies(geek_gasteiz_generate_messages geek_gasteiz_generate_messages_l
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/igor/catkin_ws/src/geek_gasteiz/msg/MsgGeek.msg" NAME_WE)
+add_dependencies(geek_gasteiz_generate_messages_lisp _geek_gasteiz_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/igor/catkin_ws/src/geek_gasteiz/srv/SrvGeek.srv" NAME_WE)
 add_dependencies(geek_gasteiz_generate_messages_lisp _geek_gasteiz_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -135,6 +164,12 @@ _generate_msg_nodejs(geek_gasteiz
 )
 
 ### Generating Services
+_generate_srv_nodejs(geek_gasteiz
+  "/home/igor/catkin_ws/src/geek_gasteiz/srv/SrvGeek.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/geek_gasteiz
+)
 
 ### Generating Module File
 _generate_module_nodejs(geek_gasteiz
@@ -149,6 +184,8 @@ add_dependencies(geek_gasteiz_generate_messages geek_gasteiz_generate_messages_n
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/igor/catkin_ws/src/geek_gasteiz/msg/MsgGeek.msg" NAME_WE)
+add_dependencies(geek_gasteiz_generate_messages_nodejs _geek_gasteiz_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/igor/catkin_ws/src/geek_gasteiz/srv/SrvGeek.srv" NAME_WE)
 add_dependencies(geek_gasteiz_generate_messages_nodejs _geek_gasteiz_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -168,6 +205,12 @@ _generate_msg_py(geek_gasteiz
 )
 
 ### Generating Services
+_generate_srv_py(geek_gasteiz
+  "/home/igor/catkin_ws/src/geek_gasteiz/srv/SrvGeek.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/geek_gasteiz
+)
 
 ### Generating Module File
 _generate_module_py(geek_gasteiz
@@ -182,6 +225,8 @@ add_dependencies(geek_gasteiz_generate_messages geek_gasteiz_generate_messages_p
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/igor/catkin_ws/src/geek_gasteiz/msg/MsgGeek.msg" NAME_WE)
+add_dependencies(geek_gasteiz_generate_messages_py _geek_gasteiz_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/igor/catkin_ws/src/geek_gasteiz/srv/SrvGeek.srv" NAME_WE)
 add_dependencies(geek_gasteiz_generate_messages_py _geek_gasteiz_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

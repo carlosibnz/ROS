@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/geek_gasteiz_generate_messages_eus"
   "/home/igor/catkin_ws/devel/share/roseus/ros/geek_gasteiz/msg/MsgGeek.l"
+  "/home/igor/catkin_ws/devel/share/roseus/ros/geek_gasteiz/srv/SrvGeek.l"
   "/home/igor/catkin_ws/devel/share/roseus/ros/geek_gasteiz/manifest.l"
 )
 

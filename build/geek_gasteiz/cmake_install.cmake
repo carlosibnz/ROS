@@ -37,6 +37,10 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/geek_gasteiz/srv" TYPE FILE FILES "/home/igor/catkin_ws/src/geek_gasteiz/srv/SrvGeek.srv")
+endif()
+
+if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/geek_gasteiz/cmake" TYPE FILE FILES "/home/igor/catkin_ws/build/geek_gasteiz/catkin_generated/installspace/geek_gasteiz-msg-paths.cmake")
 endif()
 

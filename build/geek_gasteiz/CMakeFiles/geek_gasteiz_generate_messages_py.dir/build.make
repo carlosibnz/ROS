@@ -54,7 +54,9 @@ CMAKE_BINARY_DIR = /home/igor/catkin_ws/build
 include geek_gasteiz/CMakeFiles/geek_gasteiz_generate_messages_py.dir/progress.make
 
 geek_gasteiz/CMakeFiles/geek_gasteiz_generate_messages_py: /home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/msg/_MsgGeek.py
+geek_gasteiz/CMakeFiles/geek_gasteiz_generate_messages_py: /home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/srv/_SrvGeek.py
 geek_gasteiz/CMakeFiles/geek_gasteiz_generate_messages_py: /home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/msg/__init__.py
+geek_gasteiz/CMakeFiles/geek_gasteiz_generate_messages_py: /home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/srv/__init__.py
 
 
 /home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/msg/_MsgGeek.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
@@ -62,14 +64,28 @@ geek_gasteiz/CMakeFiles/geek_gasteiz_generate_messages_py: /home/igor/catkin_ws/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/igor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG geek_gasteiz/MsgGeek"
 	cd /home/igor/catkin_ws/build/geek_gasteiz && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/igor/catkin_ws/src/geek_gasteiz/msg/MsgGeek.msg -Igeek_gasteiz:/home/igor/catkin_ws/src/geek_gasteiz/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p geek_gasteiz -o /home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/msg
 
+/home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/srv/_SrvGeek.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/srv/_SrvGeek.py: /home/igor/catkin_ws/src/geek_gasteiz/srv/SrvGeek.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/igor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV geek_gasteiz/SrvGeek"
+	cd /home/igor/catkin_ws/build/geek_gasteiz && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/igor/catkin_ws/src/geek_gasteiz/srv/SrvGeek.srv -Igeek_gasteiz:/home/igor/catkin_ws/src/geek_gasteiz/msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p geek_gasteiz -o /home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/srv
+
 /home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
 /home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/msg/__init__.py: /home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/msg/_MsgGeek.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/igor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for geek_gasteiz"
+/home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/msg/__init__.py: /home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/srv/_SrvGeek.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/igor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for geek_gasteiz"
 	cd /home/igor/catkin_ws/build/geek_gasteiz && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/msg --initpy
+
+/home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/srv/__init__.py: /home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/msg/_MsgGeek.py
+/home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/srv/__init__.py: /home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/srv/_SrvGeek.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/igor/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python srv __init__.py for geek_gasteiz"
+	cd /home/igor/catkin_ws/build/geek_gasteiz && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/srv --initpy
 
 geek_gasteiz_generate_messages_py: geek_gasteiz/CMakeFiles/geek_gasteiz_generate_messages_py
 geek_gasteiz_generate_messages_py: /home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/msg/_MsgGeek.py
+geek_gasteiz_generate_messages_py: /home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/srv/_SrvGeek.py
 geek_gasteiz_generate_messages_py: /home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/msg/__init__.py
+geek_gasteiz_generate_messages_py: /home/igor/catkin_ws/devel/lib/python2.7/dist-packages/geek_gasteiz/srv/__init__.py
 geek_gasteiz_generate_messages_py: geek_gasteiz/CMakeFiles/geek_gasteiz_generate_messages_py.dir/build.make
 
 .PHONY : geek_gasteiz_generate_messages_py

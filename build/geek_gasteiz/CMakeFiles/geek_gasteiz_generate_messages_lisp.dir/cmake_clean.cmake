@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/geek_gasteiz_generate_messages_lisp"
   "/home/igor/catkin_ws/devel/share/common-lisp/ros/geek_gasteiz/msg/MsgGeek.lisp"
+  "/home/igor/catkin_ws/devel/share/common-lisp/ros/geek_gasteiz/srv/SrvGeek.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

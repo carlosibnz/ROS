@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = "/home/igor/catkin_ws/src/geek_gasteiz/msg/MsgGeek.msg"
-services_str = ""
+services_str = "/home/igor/catkin_ws/src/geek_gasteiz/srv/SrvGeek.srv"
 pkg_name = "geek_gasteiz"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"
