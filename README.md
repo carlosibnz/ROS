@@ -4,6 +4,14 @@ Folders:
  - build
  - devel
  - src
-   - beginner_tutorials
    - geek_gasteiz
+     - CMakeLists.txt
+     - include
+     - msg
+       - MsgGeek.msg
+     - package.xml
+     - scripts
+       - publicador.py
+       - subscriptor.py
    - CMakeLists.txt
+
