@@ -1,2 +1,2 @@
-beginner_tutorials:geek_gasteiz:igor_package
+beginner_tutorials:geek_gasteiz
 -DCATKIN_DEVEL_PREFIX=/home/igor/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/igor/catkin_ws/install -G Unix Makefiles

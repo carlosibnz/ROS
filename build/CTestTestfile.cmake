@@ -7,4 +7,3 @@
 subdirs(gtest)
 subdirs(beginner_tutorials)
 subdirs(geek_gasteiz)
-subdirs(igor_package)

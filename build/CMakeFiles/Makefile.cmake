@@ -20,16 +20,12 @@ set(CMAKE_MAKEFILE_DEPENDS
   "geek_gasteiz/catkin_generated/ordered_paths.cmake"
   "geek_gasteiz/catkin_generated/package.cmake"
   "geek_gasteiz/cmake/geek_gasteiz-genmsg.cmake"
-  "igor_package/catkin_generated/ordered_paths.cmake"
-  "igor_package/catkin_generated/package.cmake"
   "/home/igor/catkin_ws/devel/share/geek_gasteiz/cmake/geek_gasteiz-msg-paths.cmake"
   "/home/igor/catkin_ws/src/CMakeLists.txt"
   "/home/igor/catkin_ws/src/beginner_tutorials/CMakeLists.txt"
   "/home/igor/catkin_ws/src/beginner_tutorials/package.xml"
   "/home/igor/catkin_ws/src/geek_gasteiz/CMakeLists.txt"
   "/home/igor/catkin_ws/src/geek_gasteiz/package.xml"
-  "/home/igor/catkin_ws/src/igor_package/CMakeLists.txt"
-  "/home/igor/catkin_ws/src/igor_package/package.xml"
   "/opt/ros/kinetic/share/catkin/cmake/../package.xml"
   "/opt/ros/kinetic/share/catkin/cmake/all.cmake"
   "/opt/ros/kinetic/share/catkin/cmake/assert.cmake"
@@ -189,7 +185,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "beginner_tutorials/CMakeFiles/CMakeDirectoryInformation.cmake"
   "geek_gasteiz/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "igor_package/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

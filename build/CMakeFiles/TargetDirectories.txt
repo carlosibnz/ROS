@@ -60,10 +60,3 @@
 /home/igor/catkin_ws/build/geek_gasteiz/CMakeFiles/geek_gasteiz_generate_messages_lisp.dir
 /home/igor/catkin_ws/build/geek_gasteiz/CMakeFiles/geek_gasteiz_geneus.dir
 /home/igor/catkin_ws/build/geek_gasteiz/CMakeFiles/geek_gasteiz_gennodejs.dir
-/home/igor/catkin_ws/build/igor_package/CMakeFiles/rebuild_cache.dir
-/home/igor/catkin_ws/build/igor_package/CMakeFiles/edit_cache.dir
-/home/igor/catkin_ws/build/igor_package/CMakeFiles/install/strip.dir
-/home/igor/catkin_ws/build/igor_package/CMakeFiles/install/local.dir
-/home/igor/catkin_ws/build/igor_package/CMakeFiles/install.dir
-/home/igor/catkin_ws/build/igor_package/CMakeFiles/test.dir
-/home/igor/catkin_ws/build/igor_package/CMakeFiles/list_install_components.dir

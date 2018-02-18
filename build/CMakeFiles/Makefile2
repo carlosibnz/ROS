@@ -1242,24 +1242,6 @@ clean: geek_gasteiz/CMakeFiles/geek_gasteiz_gennodejs.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory igor_package
-
-# Convenience name for "all" pass in the directory.
-igor_package/all:
-
-.PHONY : igor_package/all
-
-# Convenience name for "clean" pass in the directory.
-igor_package/clean:
-
-.PHONY : igor_package/clean
-
-# Convenience name for "preinstall" pass in the directory.
-igor_package/preinstall:
-
-.PHONY : igor_package/preinstall
-
-#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.
