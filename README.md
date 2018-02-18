@@ -4,3 +4,6 @@ Folders:
  - build
  - devel
  - src
+   - beginner_tutorials
+   - geek_gasteiz
+   - CMakeLists.txt
