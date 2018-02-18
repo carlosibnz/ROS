@@ -7,11 +7,15 @@ Folders:
    - geek_gasteiz
      - CMakeLists.txt
      - include
+     - srv
+       - SrvGeek.srv
      - msg
        - MsgGeek.msg
      - package.xml
      - scripts
        - publicador.py
        - subscriptor.py
+       - client.py
+       - server.py
    - CMakeLists.txt
 
