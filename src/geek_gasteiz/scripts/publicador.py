@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import rospy  #importar rospy
-from std_msgs.msg import String #importar  std_msgs.msg
+#from std_msgs.msg import String #importar  std_msgs.msg
 from geek_gasteiz.msg import MsgGeek #importar mensaje personalizado
 
 #funcion principal

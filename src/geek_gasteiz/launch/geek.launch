@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="geek_gasteiz" type="publicador.py" name="publicador1"/>
+	<node pkg="geek_gasteiz" type="subscriptor.py" name="subscriptor1"/>
+</launch>

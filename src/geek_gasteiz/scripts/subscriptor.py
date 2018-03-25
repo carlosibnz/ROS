@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import rospy #importar rospy
-from std_msgs.msg import String #importar std_msgs
+#from std_msgs.msg import String #importar std_msgs
 from geek_gasteiz.msg import MsgGeek #importar mensaje personalizado
 
 def callback_function(data): #funcion a la que se llama cuando recibo un mensaje en el topic al que nos subscribimos
