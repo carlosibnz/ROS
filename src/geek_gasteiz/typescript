@@ -1,0 +1,10 @@
+Script iniciado (sáb 31 mar 2018 21:49:01 CEST
+)]0;igor@igor-F3L: ~/catkin_ws/src/geek_gasteiz[01;32migor@igor-F3L[00m:[01;34m~/catkin_ws/src/geek_gasteiz[00m$ cd scripts/
+]0;igor@igor-F3L: ~/catkin_ws/src/geek_gasteiz/scripts[01;32migor@igor-F3L[00m:[01;34m~/catkin_ws/src/geek_gasteiz/scripts[00m$ ls
+[0m[01;32mclient.py[0m  [01;32mpublicador.py[0m   [01;32msubscriptor.py.save[0m    [01;32msubscriptor.py.save.3[0m
+[01;32mkey.py[0m     [01;32mserver.py[0m       [01;32msubscriptor.py.save.1[0m
+[01;32mmove.py[0m    [01;32msubscriptor.py[0m  [01;32msubscriptor.py.save.2[0m
+]0;igor@igor-F3L: ~/catkin_ws/src/geek_gasteiz/scripts[01;32migor@igor-F3L[00m:[01;34m~/catkin_ws/src/geek_gasteiz/scripts[00m$ [H[2J]0;igor@igor-F3L: ~/catkin_ws/src/geek_gasteiz/scripts[01;32migor@igor-F3L[00m:[01;34m~/catkin_ws/src/geek_gasteiz/scripts[00m$ exit
+
+Script terminado (sáb 31 mar 2018 21:49:37 CEST
+)
